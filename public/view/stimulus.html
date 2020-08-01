@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="bundle.js" async></script>
+    </head>
+    <body>
+        <div class="container" data-controller="show-hide">
+            <div class="default" 
+                data-target="show-hide.visible"
+                data-action="click->show-hide#toggle">
+                This DIV will be visible by default and by stimulus action if it was hidden
+            </div>
+
+            <div class="event" 
+                data-target="show-hide.invisible"
+                data-action="click->show-hide#toggle">
+                This DIV will be hidden by default it will be visible by stimulus action
+            </div>
+        </div>
+    </body>
+</html>

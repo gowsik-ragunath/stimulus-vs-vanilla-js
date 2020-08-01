@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.button{
+    font-size: 3rem;
+    text-decoration: none !important;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    background-color: snow;
+}
+
+.hidden {
+    display: none;
+}
+
+.additional-text {
+    font-size: 2rem;
+}
+
+.stimulus-content {
+    color: darkblue;
+}
+
+.vanilla-js-content {
+    color: teal;
+}
