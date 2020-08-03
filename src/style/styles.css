@@ -4,16 +4,30 @@ body {
 }
 
 .button{
-    font-size: 3rem;
+    font-size: 1rem;
     text-decoration: none !important;
+    height: 2rem;
+    width: 7rem;
+    background-color: white;
+    border: 3px blanchedalmond;
+    border-radius: 3px;
 }
 
-.container {
+.container, .star-wars {
     display: grid;
     align-items: center;
     justify-items: center;
     height: 100vh;
     background-color: snow;
+}
+
+.star-wars {
+    background-color: rgb(179, 179, 179);
+}
+
+.figther {
+    font-size: 3rem;
+    color: rebeccapurple;
 }
 
 .hidden {
